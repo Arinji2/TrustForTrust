@@ -10,47 +10,43 @@ session_start();
 
 <!DOCTYPE html>
 <html>
-<html lang="en">
-    	<head>
+	<head>
 		<meta charset="UTF-8" />
 		<!-- Character Encoding -->
 		<meta name="description" content="This is Arinji's website" />
 		<meta name="author" content="Arinji" />
 		<meta name="keywords" content="Arinji,website" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=0.1" />
 		<link rel="stylesheet" href="main.css" />
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Home</title>
 	</head>
-    <header>
-		<div class="container">
-		<img class = "PeacePic"src="https://i.ibb.co/BzM5cmg/norway-4970080.jpg" alt="people-g7d35e8085-1280" border="0"></a>
-		
+	<body>
+		<header>
 			<nav>
-				<h1 class="Head">Trust For Trust</h1> 
-				<ul class="Navigation" "style: text-decoration: none;">
-					<li><a href="contact.php">Contact</a></li>
-					<li><a href="terms.php">Terms and Conditions</a></li>
-					<li><a href="about.php">About Us</a></li>
-					<li><a href="pricing.php">Pricing</a></li>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="chat.php">Chat</a></li>
-					<li><a href="logout.php">Logout</a></li>
+				<h1 class="Head">Trust For Trust</h1>
+				<ul class="Navigation">
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="terms.html">Terms and Conditions</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="login.html">Login/Register</a></li>
 					<li class="nav_img">
 						<img
-							src="https://i.ibb.co/dm1NDZK/image-2022-03-06-130229.png"
+							src="https://i.ibb.co/vc55Pfc/image.png"
 							alt="image"
 							border="0"
 							width="14%"
-							class="logo"
 						/>
 					</li>
 				</ul>
 			</nav>
-		</div>
 		</header>
 		<main>
 			<img
