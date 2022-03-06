@@ -1,0 +1,173 @@
+.Navigation {
+	list-style-type: none;
+	margin-left: 2%;
+	overflow: hidden;
+	margin-top: 10px;
+	padding-right: 3%;
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+.MobileNavigation {
+	list-style-type: none;
+	overflow: hidden;
+	margin-top: 10px;
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	width: auto;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.MobileNavigation li {
+	float: left;
+	list-style: none;
+	margin-right: 1rem;
+}
+
+.wrapper2 {
+	text-align: center;
+}
+
+.MobileNavigation li a {
+	color: black;
+	text-align: center;
+}
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: #dde0dd;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: coral;
+}
+
+body {
+	background-color: black;
+}
+
+.dance_img {
+	padding-top: 2%;
+	padding-left: 3%;
+}
+
+.Main_Para {
+	float: right;
+	font-family: "Open Sans", sans-serif;
+	padding-top: 5%;
+	padding-right: 10%;
+	font-size: 22px;
+	color: white;
+}
+
+.Head {
+	font-family: "Sansita Swashed", cursive;
+	text-align: center;
+	font-size: 70px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.MobileHead {
+	font-family: "Sansita Swashed", cursive;
+	text-align: center;
+	font-size: 70px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.nav_img {
+	float: left;
+}
+
+.Guide1 {
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	padding-top: 5%;
+	padding-left: 25%;
+	font-size: 22px;
+	color: white;
+}
+
+#text {
+	height: 25px;
+	border-radius: 5px;
+	padding: 4px;
+	border: solid thin #aaa;
+	width: 100%;
+}
+
+#button {
+	padding: 10px;
+	width: 100px;
+	color: white;
+	background-color: #0ea398;
+	border: none;
+	text-align: center;
+}
+
+#box {
+	background-color: black;
+	margin: auto;
+	width: 300px;
+	padding: 20px;
+}
+
+.Login {
+	font-size: 20px;
+	margin: 10px;
+	color: white;
+	text-align: center;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.SignUpButton {
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+}
+
+.nav_ {
+	float: left;
+}
+
+.PeacePic {
+	width: 1450px;
+	height: 500px;
+	float: none;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.logo {
+	float: left;
+}
+
+.MobilePeacePic {
+	width: 150px;
+	height: 500px;
+	float: none;
+}
