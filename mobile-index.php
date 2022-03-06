@@ -25,31 +25,22 @@ session_start();
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
 		<title>Home</title>
 	</head>
-    <header>
+	<header>
 		<div class="container">
-		<img class = "PeacePic"src="https://i.ibb.co/BzM5cmg/norway-4970080.jpg" alt="people-g7d35e8085-1280" border="0"></a>
-		
+		<img class = "MobilePeacePic" src="https://i.ibb.co/BzM5cmg/norway-4970080.jpg" alt="people-g7d35e8085-1280" border="0"></a>
+		<div class="wrapper2">
 			<nav>
-				<h1 class="Head">Trust For Trust</h1> 
-				<ul class="Navigation" "style: text-decoration: none;">
+				<br><br><br><br><br><br><h1 class="MobileHead">Trust For Trust</h1> 
+				<ul class="MobileNavigation">
 					<li><a href="contact.php">Contact</a></li>
-					<li><a href="terms.php">Terms and Conditions</a></li>
 					<li><a href="about.php">About Us</a></li>
 					<li><a href="pricing.php">Pricing</a></li>
 					<li><a href="index.php">Home</a></li>
-					<li><a href="chat.php">Chat</a></li>
-					<li><a href="logout.php">Logout</a></li>
-					<li class="nav_img">
-						<img
-							src="https://i.ibb.co/dm1NDZK/image-2022-03-06-130229.png"
-							alt="image"
-							border="0"
-							width="14%"
-							class="logo"
-						/>
+					<li><a href="logout.php">Logout</a></li><br>
 					</li>
 				</ul>
 			</nav>
+			</div>
 		</div>
 		</header>
 		<main>

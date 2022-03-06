@@ -9,7 +9,7 @@ if(isset($_GET['logout'])){
     file_put_contents("log.html", $logout_message, FILE_APPEND | LOCK_EX);
      
     session_destroy();
-    header("Location: index.php"); //Redirect the user
+    header("Location: chat.php"); //Redirect the user
 }
  
 if(isset($_POST['enter'])){
@@ -25,7 +25,7 @@ function loginForm(){
     echo
     '<div id="loginform">
     <p>Please enter your name to continue!</p>
-    <form action="index.php" method="post">
+    <form action="chat.php" method="post">
       <label for="name">Name &mdash;</label>
       <input type="text" name="name" id="name" />
       <input type="submit" name="enter" id="enter" value="Enter" />
@@ -37,6 +37,45 @@ function loginForm(){
  
 <!DOCTYPE html>
 <html lang="en">
+    	<head>
+		<meta charset="UTF-8" />
+		<!-- Character Encoding -->
+		<meta name="description" content="This is Arinji's website" />
+		<meta name="author" content="Arinji" />
+		<meta name="keywords" content="Arinji,website" />
+		<meta name="viewport" content="width=device-width, initial-scale=0.1" />
+		<link rel="stylesheet" href="main.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Home</title>
+	</head>
+    <header>
+			<nav>
+				<h1 class="Head">Trust For Trust</h1>
+				<ul class="Navigation" "style: text-decoration: none;">
+					<li><a href="contact.php">Contact</a></li>
+					<li><a href="terms.php">Terms and Conditions</a></li>
+					<li><a href="about.php">About Us</a></li>
+					<li><a href="pricing.php">Pricing</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="chat.php">Chat</a></li>
+					<li><a href="logout.php">Logout</a></li>
+					<li class="nav_img">
+						<img
+							src="https://i.ibb.co/vc55Pfc/image.png"
+							alt="image"
+							border="0"
+							width="14%"
+						/>
+					</li>
+				</ul>
+			</nav>
+		</header>
     <head>
         <meta charset="utf-8" />
  
@@ -105,7 +144,7 @@ function loginForm(){
                 $("#exit").click(function () {
                     var exit = confirm("Are you sure you want to end the session?");
                     if (exit == true) {
-                    window.location = "index.php?logout=true";
+                    window.location = "chat.php?logout=true";
                     }
                 });
             });

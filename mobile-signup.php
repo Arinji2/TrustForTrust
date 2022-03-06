@@ -30,6 +30,7 @@ session_start();
 ?>
 
 
+
 <!DOCTYPE html>
 <html>
 <html lang="en">
@@ -49,34 +50,27 @@ session_start();
 	</head>
     <header>
 		<div class="container">
-		<img class = "PeacePic"src="https://i.ibb.co/BzM5cmg/norway-4970080.jpg" alt="people-g7d35e8085-1280" border="0"></a>
-		
-			<nav>
-				<h1 class="Head">Trust For Trust</h1> 
-				<ul class="Navigation" "style: text-decoration: none;">
-					<li><a href="contact.php">Contact</a></li>
-					<li><a href="terms.php">Terms and Conditions</a></li>
-					<li><a href="about.php">About Us</a></li>
-					<li><a href="pricing.php">Pricing</a></li>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="logout.php">Logout</a></li>
-					<li class="nav_img">
-						<img
-							src="https://i.ibb.co/dm1NDZK/image-2022-03-06-130229.png"
-							alt="image"
-							border="0"
-							width="14%"
-							class="logo"
-						/>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		</header>
+            <img class = "MobilePeacePic" src="https://i.ibb.co/BzM5cmg/norway-4970080.jpg" alt="people-g7d35e8085-1280" border="0"></a>
+            <div class="wrapper2">
+                <nav>
+                    <br><br><br><br><br><br><h1 class="MobileHead">Trust For Trust</h1> 
+                    <ul class="MobileNavigation">
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="pricing.php">Pricing</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="logout.php">Logout</a></li><br>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+            </header>
 <body>
 	<div id="box">
 		
 		<form method="post">
+		    <div class="Login">This is the Mobile Site</div><br>
 			<div class="Login">Sign Up</div><br>
 
 			<input id="text" type="text" name="user_name"><br><br>
@@ -85,12 +79,13 @@ session_start();
 			<input id="button" type="submit" value="SignUp"><br><br>
             
 
-			<a class ="SignUpButton" href="login.php">Have an account? Click to Login Instead</a><br><br>
+			<a class ="SignUpButton" href="mobile-login.php">Have an account? Click to Login Instead</a><br><br>
             </div>
 		</form>
 	</div>
 	<script type="text/javascript">
         if (screen.width <= 720) {
         window.location = "https://web.trustfortrust.cf/mobile-signup.php";
+    }
 </body>
 </html>
