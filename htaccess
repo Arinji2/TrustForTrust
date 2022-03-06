@@ -1,4 +1,6 @@
+DirectoryIndex home.php
 
 # HTID:19391215: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
 php_value display_errors 1
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:19391215:
+DirectoryIndex home.php
