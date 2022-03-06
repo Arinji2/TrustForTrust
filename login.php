@@ -48,75 +48,53 @@ session_start();
 
 <!DOCTYPE html>
 <html>
-<html lang="en">
-    	<head>
-		<meta charset="UTF-8" />
-		<!-- Character Encoding -->
-		<meta name="description" content="This is Arinji's website" />
-		<meta name="author" content="Arinji" />
-		<meta name="keywords" content="Arinji,website" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="main.css" />
-
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
-
-		<script src="redirection-mobile.js"></script>
-		<script>
-			SA.redirection_mobile();
-		</script>
-		<title>Home</title>
-	</head>
-    <header>
-		<div class="container">
-		<img class = "PeacePic"src="https://i.ibb.co/BzM5cmg/norway-4970080.jpg" alt="people-g7d35e8085-1280" border="0"></a>
-		
-			<nav>
-				<h1 class="Head">Trust For Trust</h1> 
-				<ul class="Navigation" "style: text-decoration: none;">
-					<li><a href="contact.php">Contact</a></li>
-					<li><a href="terms.php">Terms and Conditions</a></li>
-					<li><a href="about.php">About Us</a></li>
-					<li><a href="pricing.php">Pricing</a></li>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="chat.php">Chat</a></li>
-					<li><a href="logout.php">Logout</a></li>
-					<li class="nav_img">
-						<img
-							src="https://i.ibb.co/dm1NDZK/image-2022-03-06-130229.png"
-							alt="image"
-							border="0"
-							width="14%"
-							class="logo"
-						/>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		</header>
+<head>
+	<title>Login</title>
+</head>
 <body>
+
+	<style type="text/css">
+	
+	#text{
+
+		height: 25px;
+		border-radius: 5px;
+		padding: 4px;
+		border: solid thin #aaa;
+		width: 100%;
+	}
+
+	#button{
+
+		padding: 10px;
+		width: 100px;
+		color: white;
+		background-color: lightblue;
+		border: none;
+	}
+
+	#box{
+
+		background-color: grey;
+		margin: auto;
+		width: 300px;
+		padding: 20px;
+	}
+
+	</style>
+
 	<div id="box">
 		
 		<form method="post">
-			<div class="Login">Login</div><br>
+			<div style="font-size: 20px;margin: 10px;color: white;">Login</div>
 
 			<input id="text" type="text" name="user_name"><br><br>
 			<input id="text" type="password" name="password"><br><br>
-           <div class="wrapper">
-			<input id="button" type="submit" value="Login"><br><br>
-            
 
-			<a class ="SignUpButton" href="signup.php">No account? Click to Sign Up Instead</a><br><br>
-            </div>
+			<input id="button" type="submit" value="Login"><br><br>
+
+			<a href="signup.php">Click to Signup</a><br><br>
 		</form>
 	</div>
-	23
-
-<script type="text/javascript">
-        if (screen.width <= 720) {
-        window.location = "https://web.trustfortrust.cf/mobile-login.html";
-    }
-</script>
 </body>
 </html>
