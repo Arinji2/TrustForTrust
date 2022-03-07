@@ -32,10 +32,10 @@ session_start();
 			<nav>
 				<br><br><br><br><br><br><h1 class="MobileHead">Trust For Trust</h1> 
 				<ul class="MobileNavigation">
-					<li><a href="contact.php">Contact</a></li>
-					<li><a href="about.php">About Us</a></li>
-					<li><a href="pricing.php">Pricing</a></li>
-					<li><a href="index.php">Home</a></li>
+				<li><a href="mobile-contact.php">Contact</a></li>
+					<li><a href="mobile-about.php">About Us</a></li>
+					<li><a href="mobile-pricing.php">Pricing</a></li>
+					<li><a href="mobile-index.php">Home</a></li>
 					<li><a href="logout.php">Logout</a></li><br>
 					</li>
 				</ul>
@@ -60,9 +60,5 @@ session_start();
 				This is the place for you to let out your feelings. <br> There are also 0 rules and 0 moderators. <br>So do not take anything seriously and do not trust the names.
 			</p>
 		</main>
-		<script type="text/javascript">
-        if (screen.width <= 720) {
-        window.location = "https://web.trustfortrust.cf/mobile-index.php";
-		</script>
 	</body>
 </html>
