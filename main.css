@@ -61,6 +61,13 @@ body {
 	padding-left: 3%;
 }
 
+.arinji_img {
+	padding-top: 2%;
+	padding-left: 3%;
+	height: 500px;
+	border-radius: 50%;
+}
+
 .Main_Para {
 	float: right;
 	font-family: "Open Sans", sans-serif;
@@ -68,6 +75,7 @@ body {
 	padding-right: 10%;
 	font-size: 22px;
 	color: white;
+	text-align: center;
 }
 
 .Head {
