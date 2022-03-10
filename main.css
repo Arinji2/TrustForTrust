@@ -179,3 +179,11 @@ body {
 	height: 500px;
 	float: none;
 }
+
+.arinji_img_mobile {
+	padding-top: 2%;
+	padding-left: 3%;
+	height: 500px;
+	border-radius: 50%;
+	width: 330px;
+}
