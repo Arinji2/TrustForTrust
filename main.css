@@ -76,8 +76,13 @@ body {
 	font-size: 22px;
 	color: white;
 	text-align: center;
+	text-decoration: none;
 }
 
+.Main_Para a {
+	text-decoration: none;
+	color: lightblue;
+}
 .Head {
 	font-family: "Sansita Swashed", cursive;
 	text-align: center;
