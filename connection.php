@@ -1,9 +1,9 @@
 <?php
 
 $dbhost = "localhost";
-$dbuser = "id18553861_arinji";
-$dbpass = "aBCDEFGHIJKL12-";
-$dbname = "id18553861_loginid";
+$dbuser = "garconia_arinji";
+$dbpass = "SL4kwf05";
+$dbname = "garconia_sample-login";
 
 if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
 {

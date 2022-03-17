@@ -56,29 +56,19 @@ function loginForm(){
 	</head>
     <header>
 			<nav>
-				<h1 class="Head">Trust For Trust</h1>
-				<ul class="Navigation" "style: text-decoration: none;">
-					<li><a href="contact.php">Contact</a></li>
+				<ul class="Navigation">
 					<li><a href="about.php">About Us</a></li>
 					<li><a href="pricing.php">Pricing</a></li>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="chat.php">Chat</a></li>
 					<li><a href="logout.php">Logout</a></li>
-					<li class="nav_img">
-						<img
-							src="https://i.ibb.co/vc55Pfc/image.png"
-							alt="image"
-							border="0"
-							width="14%"
-						/>
-					</li>
 				</ul>
 			</nav>
 		</header>
     <head>
         <meta charset="utf-8" />
  
-        <title>Tuts+ Chat Application</title>
+        <title>Chat</title>
         <meta name="description" content="Chat Application" />
         <link rel="stylesheet" href="style.css" />
     </head>

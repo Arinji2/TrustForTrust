@@ -90,6 +90,6 @@ session_start();
 	</div>
 	<script type="text/javascript">
         if (screen.width <= 720) {
-        window.location = "https://web.trustfortrust.cf/mobile-signup.php";
+        window.location = "https://www.trustfortrust.ml/mobile-signup.php";
 </body>
 </html>

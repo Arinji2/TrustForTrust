@@ -35,6 +35,7 @@ session_start();
 					<li><a href="mobile-about.php">About Us</a></li>
 					<li><a href="mobile-pricing.php">Pricing</a></li>
 					<li><a href="mobile-index.php">Home</a></li>
+					<li><a href="chat.php">Chat</a></li>
 					<li><a href="logout.php">Logout</a></li><br>
 					</li>
 				</ul>

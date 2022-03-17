@@ -66,12 +66,12 @@ session_start();
 					>Twitter Account</a
 				>, an
 				<a href="https://www.instagram.com/trustfortrust.cf/">Insta Account</a>
-				and a <a href="">FaceBook Account</a>.
+				and a <a href="https://www.facebook.com/Trust-for-Trust-101627859164607">FaceBook Account</a>.
 			</div>
 		</main>
 		<script type="text/javascript">
         if (screen.width <= 720) {
-        window.location = "https://web.trustfortrust.cf/mobile-contact.php";
+        window.location = "https://www.trustfortrust.ml/mobile-contact.php";
 		</script>
 	</html>
 </html>

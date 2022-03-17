@@ -73,7 +73,7 @@ session_start();
 		</main>
 		<script type="text/javascript"> 
         if (screen.width <= 720) {
-        window.location = "https://web.trustfortrust.cf/mobile-pricing.php";
+        window.location = "https://www.trustfortrust.ml/mobile-pricing.php";
 		</script>
 	</body>
 </html>
