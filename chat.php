@@ -59,7 +59,6 @@ function loginForm(){
 				<h1 class="Head">Trust For Trust</h1>
 				<ul class="Navigation" "style: text-decoration: none;">
 					<li><a href="contact.php">Contact</a></li>
-					<li><a href="terms.php">Terms and Conditions</a></li>
 					<li><a href="about.php">About Us</a></li>
 					<li><a href="pricing.php">Pricing</a></li>
 					<li><a href="index.php">Home</a></li>
@@ -80,7 +79,7 @@ function loginForm(){
         <meta charset="utf-8" />
  
         <title>Tuts+ Chat Application</title>
-        <meta name="description" content="Tuts+ Chat Application" />
+        <meta name="description" content="Chat Application" />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
