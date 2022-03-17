@@ -1,3 +1,12 @@
+<?php 
+session_start();
+
+	include("connection.php");
+	include("functions.php");
+
+	$user_data = check_login($con);
+
+?>
 <!DOCTYPE html>
 <html>
 	<html lang="en">
@@ -20,39 +29,25 @@
 		</head>
 		<header>
 			<div class="container">
-				<img
-					class="PeacePic"
-					src="https://i.ibb.co/BzM5cmg/norway-4970080.jpg"
-					alt="people-g7d35e8085-1280"
-					border="0"
-				/>
-
+			<img class = "MobilePeacePic" src="https://i.ibb.co/BzM5cmg/norway-4970080.jpg" alt="people-g7d35e8085-1280" border="0"></a>
+			<div class="wrapper2">
 				<nav>
-					<h1 class="Head">Trust For Trust</h1>
-					<ul class="Navigation">
-						<li><a href="contact.php">Contact</a></li>
-						<li><a href="terms.php">Terms and Conditions</a></li>
-						<li><a href="about.php">About Us</a></li>
-						<li><a href="pricing.php">Pricing</a></li>
-						<li><a href="index.php">Home</a></li>
-						<li><a href="chat.php">Chat</a></li>
-						<li><a href="logout.php">Logout</a></li>
-						<li class="nav_img">
-							<img
-								src="https://i.ibb.co/dm1NDZK/image-2022-03-06-130229.png"
-								alt="image"
-								border="0"
-								width="14%"
-								class="logo"
-							/>
+					<br><br><br><br><br><br><h1 class="MobileHead">Trust For Trust</h1> 
+					<ul class="MobileNavigation">
+						<li><a href="mobile-contact.php">Contact</a></li>
+						<li><a href="mobile-about.php">About Us</a></li>
+						<li><a href="mobile-pricing.php">Pricing</a></li>
+						<li><a href="mobile-index.php">Home</a></li>
+						<li><a href="logout.php">Logout</a></li><br>
 						</li>
 					</ul>
 				</nav>
+				</div>
 			</div>
-		</header>
+			</header>
 		<main>
 			<div class="Main_Para">
-				Feel free to send us a mail at support@trustfortrust.ml. We also have a
+				Feel free to send us a mail at support@trustfortrust.ml . We also have a
 				<a href="https://twitter.com/TrustForTrust1/followers"
 					>Twitter Account</a
 				>, an
@@ -60,5 +55,9 @@
 				and a <a href="">FaceBook Account</a>.
 			</div>
 		</main>
+		<script type="text/javascript">
+        if (screen.width <= 720) {
+        window.location = "https://web.trustfortrust.cf/mobile-contact.php";
+		</script>
 	</html>
 </html>

@@ -7,6 +7,7 @@ session_start();
 	$user_data = check_login($con);
 
 ?>
+
 <!DOCTYPE html>
 <html>
 	<html lang="en">
@@ -59,42 +60,18 @@ session_start();
 			</div>
 		</header>
 		<main>
-			<img
-				src="https://i.ibb.co/1bzm8VH/image-2022-03-08-232000.png"
-				alt="Picture"
-				class="arinji_img"
-				id="1"
-				width="500px"
-				onmouseover="imageEnlarge();"
-				onmouseout="imageReset();"
-			/>
-			<script src="script.js"></script>
-			<p class="Main_Para" id="2">
-				Arinji: Founder, CEO<br />
-				<br />Hiya, I'm Arinji.<br />A 15 year old Indian hoping to be a front
-				end developer.<br />I developed the site<br />Check out my portfolio at
-				www.arinji.ml :)
-			</p>
-			<img
-				src="https://i.ibb.co/ZYBGL2M/image-2022-03-10-224454.png"
-				alt="Picture"
-				class="arinji_img"
-				id="4"
-				width="500px"
-				onmouseover="imageEnlarge1();"
-				onmouseout="imageReset1();"
-			/>
-			<script src="script.js"></script>
-			<p class="Main_Para" id="2">
-				Nilay: Founder, CFO<br />
-				<br />Hiya, I'm Nilay.<br />Wishing to be a UI Designer.<br />I came up
-				with the site and advertised it
-			</p>
-			<script type="text/javascript">
-				if (screen.width <= 720) {
-					window.location = "https://web.trustfortrust.cf/mobile-aboutus.php"
-				}
-			</script>
+			<div class="Main_Para">
+				Feel free to send us a mail at support@trustfortrust.ml . We also have a
+				<a href="https://twitter.com/TrustForTrust1/followers"
+					>Twitter Account</a
+				>, an
+				<a href="https://www.instagram.com/trustfortrust.cf/">Insta Account</a>
+				and a <a href="">FaceBook Account</a>.
+			</div>
 		</main>
+		<script type="text/javascript">
+        if (screen.width <= 720) {
+        window.location = "https://web.trustfortrust.cf/mobile-contact.php";
+		</script>
 	</html>
 </html>
