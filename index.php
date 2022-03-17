@@ -27,11 +27,11 @@ session_start();
 	</head>
     <header>
 		<div class="container">
-		<img class = "PeacePic"src="https://i.ibb.co/BzM5cmg/norway-4970080.jpg" alt="people-g7d35e8085-1280" border="0"></a>
+		<img class = "PeacePic"src="https://i.ibb.co/BzM5cmg/norway-4970080.jpg" alt="people-g7d35e8085-1280"></a>
 		
 			<nav>
 				<h1 class="Head">Trust For Trust</h1> 
-				<ul class="Navigation" "style: text-decoration: none;">
+				<ul class="Navigation">
 					<li><a href="contact.php">Contact</a></li>
 					<li><a href="about.php">About Us</a></li>
 					<li><a href="pricing.php">Pricing</a></li>
@@ -43,7 +43,6 @@ session_start();
 						<img
 							src="https://i.ibb.co/dm1NDZK/image-2022-03-06-130229.png"
 							alt="image"
-							border="0"
 							width="14%"
 							class="logo"
 						/>
@@ -52,10 +51,6 @@ session_start();
 			</nav>
   </header>
 		<main>
-          		<script type="text/javascript">
-        if (screen.width <= 720) {
-        window.location = "https://www.trustfortrust.ml/mobile-index.php";
-		</script>
 			<img
 				src="https://i.ibb.co/cC2NL0x/freedom-ge783b971b-640.jpg"
 				alt="Picture"

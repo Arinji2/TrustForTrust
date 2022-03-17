@@ -61,7 +61,7 @@ session_start();
 		</header>
 		<main>
 			<div class="Main_Para">
-				Feel free to send us a mail at support@trustfortrust.ml . We also have a
+				Feel free to send us a mail at support@trustfortrust.cf . We also have a
 				<a href="https://twitter.com/TrustForTrust1/followers"
 					>Twitter Account</a
 				>, an
