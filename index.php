@@ -37,6 +37,7 @@ session_start();
 					<li><a href="pricing.php">Pricing</a></li>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="chat.php">Chat</a></li>
+                    <li><a href="terms.html">Terms and Conditions</a></li>
 					<li><a href="logout.php">Logout</a></li>
 					<li class="nav_img">
 						<img
@@ -49,9 +50,12 @@ session_start();
 					</li>
 				</ul>
 			</nav>
-		</div>
-		</header>
+  </header>
 		<main>
+          		<script type="text/javascript">
+        if (screen.width <= 720) {
+        window.location = "https://www.trustfortrust.ml/mobile-index.php";
+		</script>
 			<img
 				src="https://i.ibb.co/cC2NL0x/freedom-ge783b971b-640.jpg"
 				alt="Picture"
@@ -70,7 +74,6 @@ session_start();
 		</main>
 		<script type="text/javascript">
         if (screen.width <= 720) {
-        window.location = "https://web.trustfortrust.cf/mobile-index.php";
+        window.location = "https://www.trustfortrust.ml/mobile-index.php";
 		</script>
-	</body>
 </html>
